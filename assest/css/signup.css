@@ -1,0 +1,147 @@
+body {
+    background-color: #080710;
+}
+
+.container {
+    width: 95%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.relative {
+    position: relative;
+}
+
+.form-container {
+    height: 580px;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 20px 35px;
+}
+
+.form-heading {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.p-text {
+    color: #FFFFFF;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+::placeholder {
+    color: #e5e5e5;
+}
+
+.form-input {
+    height: 50px;
+    width: 95%;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 0px 0px 15px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+.btn-container {
+    margin-top: 50px;
+}
+
+.form-btn {
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    border: none;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-container2 {
+    margin-top: 30px;
+}
+
+.link-btn {
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 10px 10px 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.27);
+    color: #eaf0fb;
+    cursor: pointer;
+    text-align: center;
+}
+
+.link-btn:hover {
+    background-color: rgba(255, 255, 255, 0.47);
+}
+
+.mx-90 {
+    max-width: 90%;
+}
+
+.link-btn .fab {
+    font-size: 1.2rem;
+    margin-right: .5rem;
+}
+
+.shape {
+    border-radius: 100%;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+
+.background-circle {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.first-circle {
+    background: linear-gradient(#1845ad, #23a2f6);
+    left: -80px;
+    top: -80px;
+}
+
+.second-circle {
+    background: linear-gradient(to right, #ff512f, #f09819);
+    right: -30px;
+    bottom: -80px;
+}
